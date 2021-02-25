@@ -1,13 +1,27 @@
-import { Icon } from '@iconify/react'
+import React, {useState} from 'react'
+import {Icon} from '@iconify/react'
 import locationIcon from '@iconify/icons-mdi/map-marker'
 
-const LocationPin = ({ text }) => {
-    // {console.log("----text----", text)}
+const LocationPin = ({text}) => {
+    const [isHovering, setHovering] = useState(false);
+
+    const handleMouseHover = () => {
+        setHovering(!isHovering)
+    }
+
     return (
-    <div className="pin">
-        <Icon icon={locationIcon} className="pin-icon" />
-        {/*<p className="pin-text">{text}</p>*/}
-    </div>
-)}
+        <div className="pin" onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHover}>
+            <Icon icon={locationIcon} className="pin-icon"/>
+            {
+                isHovering &&
+                <div>
+                    {text}
+                </div>
+            }
+            {/*<p className="pin-text">{text}</p>*/}
+        </div>
+    )
+
+}
 
 export default LocationPin
