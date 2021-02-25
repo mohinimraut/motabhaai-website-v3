@@ -7,17 +7,16 @@ import mapStyles from "./mapStyles";
 const Map = ({shops, zoomLevel }) => {
     const [type, setType] = useState(shops[0].type);
 
-    // useEffect(() => {
         const typeArray = [
             'dairy',
             'kiranas',
             'bakery',
-            'toys',
-            'cosmetic',
-            'giftshop',
-            'electrical',
-            'hardware',
-            'groceries'
+            // 'toys',
+            // 'cosmetic',
+            // 'giftshop',
+            // 'electrical',
+            // 'hardware',
+            // 'groceries'
         ]
         setTimeout(() => {
             //TODO: make it serial
@@ -25,15 +24,26 @@ const Map = ({shops, zoomLevel }) => {
             console.log("VALUES : ", value)
             setType(value)
         }, 50000)
-    // },[])
 
 
     function selectShop(type) {
-        setType(type)
-        console.log("aaaaaaaaaaaaaaaaaaaaai"+type);
-      }
+        console.log("--element---")
 
-    console.log("location sunday: ",shops);
+        typeArray.forEach(item => {
+            const element = document.getElementById(item);
+            const elementNumber = document.getElementById(`${item}-number`);
+            element.style.background = "none";
+            elementNumber.style.background = "none";
+        })
+
+        const element = document.getElementById(type);
+        const elementNumber = document.getElementById(`${type}-number`);
+        element.style.background = "red";
+        elementNumber.style.background = "red";
+
+            setType(type)
+        }
+
         const defaultProps = {
             
         center: {
@@ -74,15 +84,11 @@ const Map = ({shops, zoomLevel }) => {
 
                    
 {shops.map(item => {
-    console.log("statetypeconsole======",item.type)
-    console.log("state............x",type)
-    // const itemd = item.filter(item => item.type === type)
+    // console.log("statetypeconsole======",item.type)
+    // console.log("state............x",type)
     if(item.type===type){
         return (
-            <LocationPin 
-            // onClick={}
-           
-             
+            <LocationPin
                 lat={item.lat}
                 lng = {item.lng}
                 text = {item.text}
@@ -120,20 +126,20 @@ const Map = ({shops, zoomLevel }) => {
 
     <tr class="tdwebrow">
    
-    <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('dairy')} key={'dairy'}>Dairy</td>
-      <td style={{color:"#FFFFFF"}} class="tds">34</td>
+    <td id="dairy" style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('dairy')} key={'dairy'}>Dairy</td>
+      <td id="dairy-number" style={{color:"#FFFFFF"}} class="tds">34</td>
      
     </tr>
     <tr class="tdwebrow">
   
-      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('kiranas')} key={'kiranas'}>Kiranas</td>
-      <td style={{color:"#FFFFFF"}} class="tds">04</td>
+      <td id="kiranas" style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('kiranas')} key={'kiranas'}>Kiranas</td>
+      <td id="kiranas-number" style={{color:"#FFFFFF"}} class="tds">04</td>
      
     </tr>
     <tr class="tdwebrow">
      
-      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('bakery')} key={'bakery'} >Bakery</td>
-      <td style={{color:"#FFFFFF"}} class="tds">12</td>
+      <td id="bakery" style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('bakery')} key={'bakery'} >Bakery</td>
+      <td id="bakery-number" style={{color:"#FFFFFF"}} class="tds">12</td>
      </tr>
      <tr class="tdwebrow">
       <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('toys')} key={'toys'}>Toys</td>
