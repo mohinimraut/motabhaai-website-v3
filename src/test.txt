@@ -1,0 +1,202 @@
+//TODO: array of the location with lat lng and text. Iterate over it and map it to the appropiate props in location pin
+            location.map(item => {
+                    return (
+                       <LocationPin
+                       lat={item.lat}
+                     lng={item.lng}
+                        text={item.text}
+                   />    
+                   )
+                    })
+
+
+
+                
+                import React from 'react'
+                import GoogleMapReact from 'google-map-react'
+                import LocationPin from "./LocationPin";
+                import './map.css'
+import { ActionBackup } from 'material-ui/svg-icons';
+                
+                
+                const Map = ({ location, zoomLevel }) => {
+
+                  
+                    
+                    console.log("location : ", location);
+                        const defaultProps = {
+                            
+                        center: {
+                            lat: 19.28714,
+                            lng: 72.86884,
+                            text:"test3"
+                        },
+                        zoom: 15
+                    };
+                
+                    return (
+                        <div className="map" style={{backgroundColor:"#2C3D6333",borderRadius:"5%",margin:"1%"}}>
+                <div id="motabahiheadtitle">
+                <div class="row">  <p id="mapmotabhaai" style={{color:"#2C3D63"}}>Motabhaai's</p> </div>
+                 <div class="row"><p id="mapmotabhaaisecond" style={{color:"#2C3D63"}}>of Mira Bhayander</p></div>
+                 <div class="row"> <p id="mapmotabhaaithird" style={{color:"#2C3D63"}}>The good, The best and the superstar!</p> </div>
+                </div>
+                
+                            <div className="google-map"  style={{ height: '100vh', width: '100%',padding:"5%"}}>
+                                <GoogleMapReact  className="google-map-inside"
+                                    bootstrapURLKeys={{key: 'AIzaSyDoCcw1roUTnP4zfkip01W__M3SplAf77Y'}}
+                                    defaultCenter={defaultProps.center}
+                                    defaultZoom={defaultProps.zoom}
+                                >
+                
+                                    <LocationPin
+                                        lat={location.lat}
+                                        lng={location.lng}
+                                        text={'my test 1'}
+                                    />
+                
+                                    <LocationPin
+                                        text= {'My marker 2'}
+                                       
+                                        lat= {19.28714}
+                                        lng= {72.86884}
+                                    />
+                
+                                </GoogleMapReact>
+                            </div>
+                        </div>
+                    )
+                }
+                
+                export default Map;
+                ================
+
+
+                const locationdata = [
+                    {
+                      lat: 19.28438,
+                      lng: 72.86417,
+                      text:"Warsi Urban Culture"
+                    },
+                    {
+                        lat: 19.28231,
+                        lng: 72.86135,
+                        text:"Warsi Urban Culture"
+                      },
+                      {
+                        lat: 19.27833,
+                        lng: 72.86049,
+                        text:"Punjab and maharashtra bank"
+                      },
+                      {
+                        lat: 19.28471,
+                        lng: 72.86013,
+                        text:"W0rkhardt hospital"
+                      },
+                     
+                  ];
+
+                ====================
+
+                main Ba
+
+                ==========
+
+                import React from 'react'
+import GoogleMapReact from 'google-map-react'
+import LocationPin from "./LocationPin";
+import './map.css'
+
+
+const Map = ({ location, zoomLevel }) => {
+    const locations = [
+        {
+          lat: 19.28438,
+          lng: 72.86417,
+          text:"Warsi Urban Culture"
+        },
+        {
+            lat: 19.28231,
+            lng: 72.86135,
+            text:"Warsi Urban Culture"
+          },
+          {
+            lat: 19.27833,
+            lng: 72.86049,
+            text:"Punjab and maharashtra bank"
+          },
+          {
+            lat: 19.28471,
+            lng: 72.86013,
+            text:"W0rkhardt hospital"
+          },
+         
+      ];
+
+    console.log("location sunday: ", location);
+        const defaultProps = {
+            
+        center: {
+            lat: 19.28714,
+            lng: 72.86884
+        },
+        zoom: 15
+    };
+
+    return (
+        <div className="map" style={{backgroundColor:"#2C3D6333",borderRadius:"5%"}}>
+<div id="motabahiheadtitle">
+<div class="row">  <p id="mapmotabhaai" style={{color:"#2C3D63"}}>Motabhaai's</p> </div>
+ <div class="row"><p id="mapmotabhaaisecond" style={{color:"#2C3D63"}}>of Mira Bhayander</p></div>
+ <div class="row"> <p id="mapmotabhaaithird" style={{color:"#2C3D63"}}>The good, The best and the superstar!</p> </div>
+</div>
+
+            <div className="google-map" style={{ height: '95vh', width: '100%',padding:"5%",borderRadius:"30px",overflow:"hidden"}}>
+                <GoogleMapReact  className="google-map-inside"
+                    bootstrapURLKeys={{key: 'AIzaSyDoCcw1roUTnP4zfkip01W__M3SplAf77Y'}}
+                    defaultCenter={defaultProps.center}
+                    defaultZoom={defaultProps.zoom}
+                >
+
+
+{/* const listItems = locations.map((item) =>
+    <LocationPin key={item.toString()}
+             lat={location.lat}
+             lng={location.lng}
+             text={item.text} />
+
+
+
+
+  ); */}
+
+  locations.map(item =>
+                return (
+                <LocationPin
+                   lat={item.lat}
+                lng={item.lng}
+                   text={item.text}
+                />    
+                  )
+  )
+                    {/* <LocationPin
+                        lat={location.lat}
+                        lng={location.lng}
+                        text={'my test 1'}
+                    />
+
+                    <LocationPin
+                        text= {'My marker 2'}
+                       
+                        lat= {19.28714}
+                        lng= {72.86884}
+                    /> */}
+                   
+
+                </GoogleMapReact>
+            </div>
+        </div>
+    )
+}
+
+export default Map;
