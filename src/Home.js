@@ -69,386 +69,386 @@ export class Home extends Component {
         lat: 19.48438,
         lng: 72.36417,
         type:"kiranas",
-         name:"kiranaA",
+         text:"kiranaA",
       },
       {
         lat: 19.28363,
         lng: 72.86202,
         type:"kiranas",
-         name:"Unique The Gift Store",
+         text:"Unique The Gift Store",
       },
       {
         lat: 19.28375,
         lng: 75.87605,
         type:"kiranas",
-         name:"New Hanuman Kirana Store",
+         text:"New Hanuman Kirana Store",
       },
       {
         lat: 19.27302,
         lng: 72.88037,
         type:"kiranas",
-         name:"Choudhary Kirana Store",
+         text:"Choudhary Kirana Store",
       },
       {
         lat: 19.27878,
         lng: 72.87837,
         type:"kiranas",
-         name:"New Mahadev Super Market",
+         text:"New Mahadev Super Market",
       },
       {
         lat: 19.27933,
         lng: 72.86722,
         type:"kiranas",
-         name:"Gokul Kirana Store",
+         text:"Gokul Kirana Store",
       },
       {
         lat: 19.30909,
         lng: 72.85063,
         type:"kiranas",
-         name:"Mahavir Kirana Store",
+         text:"Mahavir Kirana Store",
       },
       {
         lat: 19.28363,
         lng: 72.86202,
         type:"cosmetic",
-         name:"Beauty Parlor A",
+         text:"Beauty Parlor A",
       },
       {
         lat: 19.28764,
         lng: 72.86624,
         type:"cosmetic",
-         name:"Pramila Beauty Parlor",
+         text:"Pramila Beauty Parlor",
       },
       {
         lat: 19.28764,
         lng: 72.86624,
         type:"groceries",
-         name:"Ram Krishna Manglore Store",
+         text:"Ram Krishna Manglore Store",
       },
       {
         lat: 19.28486,
         lng: 72.85778,
         type:"dairy",
-         name:"Super Dairy",
+         text:"Super Dairy",
       },
       {
         lat: 19.31404,
         lng: 72.85440,
         type:"dairy",
-         name:"Shrinath Dairy",
+         text:"Shrinath Dairy",
       },
       {
         lat: 19.30750,
         lng: 72.85057,
         type:"dairy",
-         name:"Bhajanla Dairy",
+         text:"Bhajanla Dairy",
       },
       {
         lat: 19.29417,
         lng: 72.86155,
         type:"dairy",
-         name:"Nagori Dairy",
+         text:"Nagori Dairy",
       },
       {
         lat: 19.28486,
         lng: 72.85778,
         type:"dairy",
-         name:"Super Dairy",
+         text:"Super Dairy",
       },
       {
         lat: 19.29167,
         lng: 72.85914,
         type:"dairy",
-         name:"Sagar Dairy",
+         text:"Sagar Dairy",
       },
       {
         lat: 19.28738,
         lng: 72.85914,
         type:"dairy",
-         name:"Nagori Sufi Dairy",
+         text:"Nagori Sufi Dairy",
       },
       {
         lat: 19.28438,
         lng: 72.86417,
         type:"kiranas",
-         name:"kiranaB",
+         text:"kiranaB",
       },
       
       {
         lat: 19.27238,
         lng: 72.86210,
         type:"bakery",
-         name:"Master Bakery",
+         text:"Master Bakery",
       },
      
       {
         lat: 19.28428,
         lng: 72.85753,
         type:"bakery",
-         name:"Bhaijaan Bakery",
+         text:"Bhaijaan Bakery",
       },
      
       {
         lat: 19.27229,
         lng: 72.86219,
         type:"bakery",
-         name:" Sagar Bakery",
+         text:" Sagar Bakery",
       },
       
       {
         lat: 19.28071,
         lng: 72.86993,
         type:"electrical",
-         name:"Miracle Electrical Solutions India Pvt. Ltd.",
+         text:"Miracle Electrical Solutions India Pvt. Ltd.",
       },
       {
         lat: 19.28417,
         lng: 72.86457,
         type:"electrical",
-         name:"Gaurav Electricals",
+         text:"Gaurav Electricals",
       },
      
       {
         lat: 19.28049,
         lng: 72.86221,
         type:"hardware",
-         name:"Shivam Electric And Hardware Stores",
+         text:"Shivam Electric And Hardware Stores",
       },
       {
         lat: 19.5438,
         lng: 72.36417,
         type:"bakery",
-         name:"BakeryA",
+         text:"BakeryA",
       },
       {
         lat: 19.68438,
         lng: 72.36417,
         type:"bakery",
-         name:"BakeryB",
+         text:"BakeryB",
       },
       {
         lat: 19.31020,
         lng: 72.85566,
         type:"toys",
-         name:"Krishna Toys",
+         text:"Krishna Toys",
       },
       {
         lat: 19.48438,
         lng: 72.56417,
         type:"giftshop",
-         name:"giftshopA"
+         text:"giftshopA"
       },
       {
         lat: 19.28438,
         lng: 72.86417,
         type:"giftshop",
-         name:"giftshopB"
+         text:"giftshopB"
       },
       {
         lat: 19.68438,
         lng: 72.46417,
         type:"cosmetic",
-         name:"CosmeticA"
+         text:"CosmeticA"
       },
       {
         lat: 19.8838,
         lng: 72.10417,
         type:"cosmetic",
-         name:"CosmeticB"
+         text:"CosmeticB"
       },
       {
         lat: 19.27975182,
         lng: 72.87821263,
         type:"groceries",
-         name:"Shree Satyam Super Market",
+         text:"Shree Satyam Super Market",
       },
       {
         lat: 19.28185825
         ,
         lng: 72.87435025,
         type:"groceries",
-         name:"Prem Super Market & Kirana Stores",
+         text:"Prem Super Market & Kirana Stores",
       },
       {
         lat: 19.2810886,
         lng:72.87138909,
         type:"groceries",
-         name:"Ganga Super Bazaar",
+         text:"Ganga Super Bazaar",
       },
       {
         lat: 19.28424821,
         lng:72.87083119,
         type:"groceries",
-         name:"Shree Purab Super Market",
+         text:"Shree Purab Super Market",
       },
       {
         lat: 19.2842077,
         lng:72.86950081,
         type:"groceries",
-         name:"Bagathome",
+         text:"Bagathome",
       },
       {
         lat: 19.28696218,
         lng:72.87151784,
         type:"groceries",
-         name:"Monica Trading Company",
+         text:"Monica Trading Company",
       },
       {
         lat: 19.2870432,
         lng:72.86628216,
         type:"groceries",
-         name:"Sanjay Super Market",
+         text:"Sanjay Super Market",
       },
       {
         lat: 19.28870396,
         lng:72.86465138,
         type:"groceries",
-         name:"Mahadev Super Market",
+         text:"Mahadev Super Market",
       },
       {
         lat: 19.29110353,
         lng:72.86418433,
         type:"groceries",
-         name:"PURABJI TRADING",
+         text:"PURABJI TRADING",
       },
       {
         lat: 19.29040515,
         lng:72.864868,
         type:"electrical",
-         name:"Snehaanjali Electronics",
+         text:"Snehaanjali Electronics",
       },
       {
         lat: 19.28696937,
         lng:72.868929,
         type:"electrical",
-         name:"Aaksh Electronics",
+         text:"Aaksh Electronics",
       },
       {
         lat: 19.28660547,
         lng:72.86957157,
         type:"electrical",
-         name:"Royal Electronics",
+         text:"Royal Electronics",
       },
       {
         lat: 19.28168061,
         lng:72.87522612,
         type:"electrical",
-         name:"Snehanjali Electronics",
+         text:"Snehanjali Electronics",
       },
       {
         lat: 19.29330111,
         lng:72.861758,
         type:"electrical",
-         name:"Kohinoor",
+         text:"Kohinoor",
       },
       {
         lat:19.29679438,
         lng:72.85993312,
         type:"electrical",
-         name:"Soni Electronics",
+         text:"Soni Electronics",
       },
       {
         lat:19.29546015,
         lng:72.85885361,
         type:"electrical",
-         name:"Manaal Electronics",
+         text:"Manaal Electronics",
       },
       {
         lat:19.29244233,
         lng:72.86182154,
         type:"electrical",
-         name:"Sony Showroom",
+         text:"Sony Showroom",
       },
       {
         lat:19.28599817,
         lng:72.86917576,
         type:"electrical",
-         name:"Navkar Electronics",
+         text:"Navkar Electronics",
       },
       {
         lat:19.27585577,
         lng: 72.87131898,	
         type:"toys",
-         name:"Shree balaji stores"
+         text:"Shree balaji stores"
       },
       {
         lat: 19.27585577,
         lng: 72.87131898,
         type:"giftshop",
-        name:"Shree balaji stores"
+        text:"Shree balaji stores"
       },
       {
         lat:19.28217573,
         lng: 72.87757322,
         type:"toys",
-         name:"Welcome novelty & stationery	Gifts"
+         text:"Welcome novelty & stationery	Gifts"
       },
       {
         lat: 19.28217573,
         lng: 72.87757322,
         type:"giftshop",
-        name:"Welcome novelty & stationery	Gifts"
+        text:"Welcome novelty & stationery	Gifts"
       },
       {
         lat:19.29495502,
         lng: 72.87757322,
         type:"toys",
-         name:"Gifting Tree	Gifts & Toys"
+         text:"Gifting Tree	Gifts & Toys"
       },
       {
         lat: 19.28217573,
         lng: 72.87757322,
         type:"giftshop",
-        name:"Gifting Tree	Gifts & Toys",
+        text:"Gifting Tree	Gifts & Toys",
       },
       {
         lat:19.28335593,
         lng: 72.87914409,
         type:"toys",
-         name:"Karishma the gift shop"
+         text:"Karishma the gift shop"
       },
       {
         lat: 19.31214973,
         lng:  72.85741494,
         type:"giftshop",
-        name:"Kanchan novelty Gifts & Toys"
+        text:"Kanchan novelty Gifts & Toys"
       },
       {
         lat: 19.26133895,
         lng:  72.8658759,
         type:"toys",
-        name:"new Riddhi Siddhi Enterprises	Gifts & Toys"
+        text:"new Riddhi Siddhi Enterprises	Gifts & Toys"
       },
       {
         lat: 19.26133895,
         lng:  72.8658759,
         type:"giftshop",
-        name:"new Riddhi Siddhi Enterprises	Gifts & Toys"
+        text:"new Riddhi Siddhi Enterprises	Gifts & Toys"
       },
     
       {
         lat: 	19.28698677,
         lng:  72.85825315,
         type:"toys",
-        name:"royal toys	Gifts & Toys"
+        text:"royal toys	Gifts & Toys"
       },
       {
         lat: 	19.28698677,
         lng:  72.85825315,
         type:"giftshop",
-        name:"royal toys	Gifts & Toys"
+        text:"royal toys	Gifts & Toys"
       },
       {
         lat: 	19.28937665,
         lng:  72.85821023	,
         type:"toys",
-        name:"gift valley	Gifts & Toys"
+        text:"gift valley	Gifts & Toys"
       },
       {
         lat: 	19.28937665,
         lng:  72.85821023	,
         type:"giftshop",
-        name:"gift valley	Gifts & Toys"
+        text:"gift valley	Gifts & Toys"
       },
       
       {
@@ -456,192 +456,192 @@ export class Home extends Component {
         lng:  72.85752359, 
  
         type:"toys",
-        name:"Beautiful Gifts & Toys	Gifts & Toys"
+        text:"Beautiful Gifts & Toys	Gifts & Toys"
       },
       {
         lat: 	19.29083487,
         lng:  72.85752359	,
  
         type:"giftshop",
-        name:"Beautiful Gifts & Toys	Gifts & Toys"
+        text:"Beautiful Gifts & Toys	Gifts & Toys"
       },
       {
         lat: 	19.29071335,
         lng:  72.85752359,
  
         type:"toys",
-        name:"Daimond Gifts & Toys	Gifts & Toys"
+        text:"Daimond Gifts & Toys	Gifts & Toys"
       },
       {
         lat: 	19.29071335,
         lng:  72.85752359,
  
         type:"giftshop",
-        name:"Daimond Gifts & Toys	Gifts & Toys"
+        text:"Daimond Gifts & Toys	Gifts & Toys"
       },
       {
         lat: 	19.28088779,
         lng:  72.86584634,
  
         type:"toys",
-        name:"Chamunda Gifts & Toys	Gifts & Toys"
+        text:"Chamunda Gifts & Toys	Gifts & Toys"
       },
       {
         lat: 	19.28088779,
         lng:  72.86584634,
         type:"giftshop",
-        name:" Chamunda Gifts & Toys	Gifts & Toys"
+        text:" Chamunda Gifts & Toys	Gifts & Toys"
       },
       {
         lat: 	19.27940286,
         lng:  72.86070235,
  
         type:"toys",
-        name:"Ambika Gifts & Toys	Gifts & Toys"
+        text:"Ambika Gifts & Toys	Gifts & Toys"
       },
       {
         lat: 	19.27940286,
         lng:  72.86070235,
         type:"giftshop",
-        name:"Ambika Gifts & Toys	Gifts & Toys"
+        text:"Ambika Gifts & Toys	Gifts & Toys"
       },
       {
         lat: 	19.27752425,
         lng:  72.87791222,
         type:"hardware",
-        name:"Baba Hardware"
+        text:"Baba Hardware"
       },
       {
         lat: 	19.27776731,
         lng:  72.87872761,
         type:"hardware",
-        name:"mahavir electric & hardware"
+        text:"mahavir electric & hardware"
       },
       {
         lat: 	19.28056241,
         lng:  72.87718266,
         type:"hardware",
-        name:"Sangam Electric & Hardware Stores"
+        text:"Sangam Electric & Hardware Stores"
       },
       {
         lat: 	19.28080546,
         lng:  72.87585229,
         type:"hardware",
-        name:"Rajendra Electrical & Hardware"
+        text:"Rajendra Electrical & Hardware"
       },
       {
         lat: 	19.28189918,
         lng:  72.8750369,
         type:"hardware",
-        name:"Shree Ashapura Hardware"
+        text:"Shree Ashapura Hardware"
       },
       {
         lat: 	19.28161562,
         lng:  72.87284821,
         type:"hardware",
-        name:"Mahavir Paints & Hardware Stores"
+        text:"Mahavir Paints & Hardware Stores"
       },
       {
         lat: 	19.28270933,
         lng:  72.87319154,
         type:"hardware",
-        name:"Prakash Electric & Hardware Store"
+        text:"Prakash Electric & Hardware Store"
       },
       {
         lat: 	19.286355,
         lng:  72.86920041,
         type:"hardware",
-        name:"Shree Balaji Paints And Hardware Stores"
+        text:"Shree Balaji Paints And Hardware Stores"
       },
       {
         lat: 	19.28801577,
         lng: 72.86731213,
         type:"hardware",
-        name:"Ganesh Hardware"
+        text:"Ganesh Hardware"
       },
       {
         lat:19.29060817,
         lng: 72.86327809,
         type:"hardware",
-        name:"Shree Anand Electric & Hardware Stores"
+        text:"Shree Anand Electric & Hardware Stores"
       },
       {
         lat:19.29344356,
         lng:72.86053151,
         type:"hardware",
-        name:"Shree Ashapura Electric & Hardware Stores"
+        text:"Shree Ashapura Electric & Hardware Stores"
       },
       {
         lat:19.29895216,
         lng:72.85576791,
         type:"hardware",
-        name:"Jai Bhavani Electric & Hardware Stores"
+        text:"Jai Bhavani Electric & Hardware Stores"
       },
       {
         lat:19.30053181,
         lng:72.85585374,
         type:"hardware",
-        name:"Maharashtra Electric & Hardware Store"
+        text:"Maharashtra Electric & Hardware Store"
       },
       {
         lat:19.28522384,
         lng:72.8740979,
         type:"cosmetic",
-        name:"Sinha beauty &cosmetics"
+        text:"Sinha beauty &cosmetics"
       },
       {
         lat:19.27881313,
         lng:72.85828593,
         type:"cosmetic",
-        name:"Khwaish Art Jewellary	Beauty Cosmatics"
+        text:"Khwaish Art Jewellary	Beauty Cosmatics"
       },
       {
         lat:19.27895776,
         lng:72.85846247	,
         type:"cosmetic",
-        name:"Beauty Essential Beauty Cosmatics"
+        text:"Beauty Essential Beauty Cosmatics"
       },
       {
         lat:19.27944825,
         lng:72.85820266,
         type:"cosmetic",
-        name:"Aara Beauty Center Beauty Cosmatics"
+        text:"Aara Beauty Center Beauty Cosmatics"
       },
       {
         lat:19.27895462,
         lng:72.86038108,
         type:"cosmetic",
-        name:"Jai Ambe Beauty Shop Imitation Cosmetic"
+        text:"Jai Ambe Beauty Shop Imitation Cosmetic"
       },
       {
         lat:19.30374,
         lng:72.86568,
         type:"cosmetic",
-        name:"Anmol Bakery"
+        text:"Anmol Bakery"
       },
       {
         lat:19.29771,
         lng:72.86903,
         type:"bakery",
-        name:"Bangalore Iyengar bakery"
+        text:"Bangalore Iyengar bakery"
       },
       {
         lat:19.28601,
         lng:72.86157,
         type:"bakery",
-        name:"Gani Bakery"
+        text:"Gani Bakery"
       },
       {
         lat:19.28265,
         lng:72.86756,
         type:"bakery",
-        name:"Anand Bakery"
+        text:"Anand Bakery"
       },
       {
         lat:19.27233,
         lng:72.86210,
         type:"bakery",
-        name:"Master Bakery & General Store"
+        text:"Master Bakery & General Store"
       },
     ]
     
