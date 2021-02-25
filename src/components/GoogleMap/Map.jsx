@@ -1,12 +1,33 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import GoogleMapReact from 'google-map-react'
 import LocationPin from "./LocationPin";
 import './map.css'
 import mapStyles from "./mapStyles";
 
 const Map = ({shops, zoomLevel }) => {
-    const [type, setType] = useState('');
-    
+    const [type, setType] = useState(shops[0].type);
+
+    // useEffect(() => {
+        const typeArray = [
+            'dairy',
+            'kiranas',
+            'bakery',
+            'toys',
+            'cosmetic',
+            'giftshop',
+            'electrical',
+            'hardware',
+            'groceries'
+        ]
+        setTimeout(() => {
+            //TODO: make it serial
+            const value = typeArray[Math.floor(Math.random() * (typeArray.length))]
+            console.log("VALUES : ", value)
+            setType(value)
+        }, 50000)
+    // },[])
+
+
     function selectShop(type) {
         setType(type)
         console.log("aaaaaaaaaaaaaaaaaaaaai"+type);
@@ -79,14 +100,24 @@ const Map = ({shops, zoomLevel }) => {
 <table style={{backgroundColor:"#556577",opacity:'2'}}  id="maptableweb">
   <thead>
     <tr style={{height:"3rem"}}>
-   
       <th style={{color:"#fff"}} class="tdf" scope="col">Type</th>
       <th style={{color:"#fff"}} class="tds" scope="col">No of shop</th>
-     
     </tr>
   </thead>
   <tbody>
-  
+
+  {/*{*/}
+  {/*    shops.map(item => {*/}
+  {/*        <tr className="tdwebrow">*/}
+
+  {/*            <td style={{color: "#FFFFFF"}} className="tdf" onClick={() => selectShop(item.type)} key={item.type}>item.type*/}
+  {/*            </td>*/}
+  {/*            <td style={{color: "#FFFFFF"}} className="tds"></td>*/}
+
+  {/*        </tr>*/}
+  {/*    })*/}
+  {/*}*/}
+
     <tr class="tdwebrow">
    
     <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('dairy')} key={'dairy'}>Dairy</td>
@@ -148,10 +179,8 @@ const Map = ({shops, zoomLevel }) => {
   <tbody>
   
     <tr>
-   
     <td className="tdmodule" onClick={() => selectShop('dairy')} key={'dairy'}>Dairy</td>
       <td className="tdmodule">34</td>
-     
     </tr>
     <tr>
   
